@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-<body style="background-image:url(images/p2.jpg)">
+<body style="background-image:url(p2.jpg)">
 <link rel="stylesheet" href="main.css">
 			<div class="header">
 				<ul>
-					<li style="float:left;border-right:none"><a href="cover.php" class="logo"><img src="images/cal.png" width="30px" height="30px"><strong> physiotherapy </strong>Appointment Booking</a></li>
+					<li style="float:left;border-right:none"><a href="cover.php" class="logo"><img src="cal.png" width="30px" height="30px"><strong> physiotherapy </strong>Appointment Booking</a></li>
 					<li><a href="locateus.php">Locate Us</a></li>
 					<li><a href="#home">Home</a></li>
 				</ul>
 			</div>
 			<div class="center">
 				<h1>physiotherapy</h1><br>
-				<p style="text-align:center;color:black;font-size:30px;top:35%">Online Appointment Booking</p><br>
+				<p style="text-align:center;color:black;font-size:30px;top:35%">Online Appointment Booking System</p><br>
 				<button onclick="document.getElementById('id01').style.display='block'" style="position:absolute;top:50%;left:50%">Login</button>
 				
 			</div>	
 			<div class="footer">
 				<ul style="position:absolute;top:93%;background-color:black">
-					<li><a href="admin/alogin.php">Admin Login</a></li>
-					<li><a href="admin/mlogin.php">Manager Login</a></li>
+					<li><a href="alogin.php">Admin Login</a></li>
+					<li><a href="mlogin.php">Manager Login</a></li>
 				</ul>
 			</div>
 <div id="id01" class="modal">

@@ -8,7 +8,7 @@
 <body>
 <?php
 require_once("dbconfig.php");
-	$query ="SELECT * FROM clinic WHERE Town = '" . $_POST["townid"] . "'";
+	$query ="SELECT * FROM clinic WHERE City = '" . $_POST["city"] . "'";
 	$results = $conn->query($query);
 ?>
 	<option value="">Select Clinic</option>
